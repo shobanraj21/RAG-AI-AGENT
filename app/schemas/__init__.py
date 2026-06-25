@@ -1,0 +1,1 @@
+"Schemas validations of the application."

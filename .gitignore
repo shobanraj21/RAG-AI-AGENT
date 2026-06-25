@@ -1,0 +1,15 @@
+# .gitignore
+**/__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.vscode/
+.idea/
+applogs/
+*.so
+*.dylib
+*.dll
+*.DS_Store
+*app.log*
+ 
