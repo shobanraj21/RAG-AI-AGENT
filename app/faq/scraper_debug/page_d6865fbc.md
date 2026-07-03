@@ -1,0 +1,120 @@
+Apply for Car Loans- Attractive Interest rates, Maximum Tenure | Cholamandalam Finance
+
+* About Us
+
+  Vision & Mission
+  Heritage
+  Board of Directors
+  Our Subsidiaries
+  Our Presence
+* Customer Service
+
+  Contact Us
+  Download Forms
+  Partner With Us
+  Grievance Redressal
+  Branch Locator
+  Release of Property Document
+  Chola Charter
+* News
+  News & Events
+  Press Releases
+  Media Kit
+  Auction Notice
+* CSR
+* ESG
+* Investors
+* People
+  Our Beliefs
+  Why Chola
+  Life at Chola
+  Careers
+* Customer Login
+  Gaadibazaar
+  Chola One
+* Blogs
+* Pay Vehicle EMI
+
+# Chola - Over 4 decades of helping millions enter a better life
+
+* Quick Loan Processing
+* Ease of Digital Approval
+
+Looking For A Loan?
+
+Don’t worry, your information is safe with us. By clicking “Get Started” you agree to the terms & conditions
+
+Please enter OTP
+An 4 digit code has been sent to
+
+### 30
+
+car-loans
+
+# Car & MUV - Loans
+
+* Quick Loan Processing
+* Ease of Digital Approval
+
+## Features & Benefits
+
+Quick processing with minimum documentation.
+Attractive rate of interest
+Ease of digitized approval
+Wide branch network
+
+### Why Chola?
+
+There's more than one reason to be confident
+
+Know More
+
+### 48
+
+Years of Excellence
+
+### 32
+
+States & Union Territories
+
+### 71,260+
+
+Strong Workforce
+
+### 1761
+
+Branches
+
+### ₹2.27 lakh Cr
+
+Assets Under Management
+
+### 44.7 lakh+
+
+Happy Customers
+
+## Our Happy Customers
+
+Natarajan, Chennai
+
+I used to drive old vehicles but now I own 6 trucks, all thanks to Chola. Chola provided me with maximum funding at a lower interest rate within 2 days of applying.”
+
+Know Their Story
+
+Miraz Shatab Baig A.K.A, Raipur
+
+Chola has always provided me with finance and timely top-up loans whenever needed. Chola is like a family member to me. We are one family!
+
+Know Their Story
+
+Chandrashekhar Singh Parihar, Raipur
+
+Since 2002, We have been getting our financing done through Chola. We received great support from Chola.We recommend Chola to all our relative and personal contacts.
+
+Know Their Story
+
+T Kumarasen, Chennai
+
+Chola has provided me with the maximum funding at a lower rate of interest that too in just 2 days
+
+Know Their Story

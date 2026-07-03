@@ -1,0 +1,254 @@
+{
+  "Our Products": [
+    {
+      "text": "Gold Loan",
+      "url": "https://www.cholamandalam.com/gold-loan"
+    },
+    {
+      "text": "Commercial Vehicle Loan",
+      "url": "https://www.cholamandalam.com/avail-commercial-vehicle-loans"
+    },
+    {
+      "text": "Car Loan",
+      "url": "https://www.cholamandalam.com/avail-car-loans"
+    },
+    {
+      "text": "Used Car Loan",
+      "url": "https://www.cholamandalam.com/get-used-car-loans"
+    },
+    {
+      "text": "Construction Equipment Loan",
+      "url": "https://www.cholamandalam.com/get-construction-equipment-loans"
+    },
+    {
+      "text": "Two Wheeler Loan",
+      "url": "https://www.cholamandalam.com/get-two-wheeler-loans"
+    },
+    {
+      "text": "New Car Loan",
+      "url": "https://www.cholamandalam.com/get-new-car-loans"
+    },
+    {
+      "text": "Tractor Loan",
+      "url": "https://www.cholamandalam.com/get-tractor-loans"
+    },
+    {
+      "text": "Three Wheeler Loan",
+      "url": "https://www.cholamandalam.com/get-three-wheeler-loans"
+    },
+    {
+      "text": "Home Loan",
+      "url": "https://www.cholamandalam.com/get-home-loans"
+    },
+    {
+      "text": "Loan Against Property",
+      "url": "https://www.cholamandalam.com/get-loan-against-property"
+    },
+    {
+      "text": "Personal Loan",
+      "url": "https://www.cholamandalam.com/get-consumer-small-enterprise-loans"
+    },
+    {
+      "text": "Secured Business Loan",
+      "url": "https://www.cholamandalam.com/get-secured-business-loans"
+    },
+    {
+      "text": "SME Loan",
+      "url": "https://www.cholamandalam.com/get-sme-loans"
+    },
+    {
+      "text": "Personal Loan",
+      "url": "https://www.cholamandalam.com/chola-one-instant-personal-loan-app"
+    }
+  ],
+  "Investors": [
+    {
+      "text": "Investor Presentation",
+      "url": "https://www.cholamandalam.com/investors/investor-presentations"
+    },
+    {
+      "text": "Company Policies",
+      "url": "https://www.cholamandalam.com/investors/company-policy"
+    },
+    {
+      "text": "Financial Information",
+      "url": "https://www.cholamandalam.com/investors/financials"
+    },
+    {
+      "text": "AGM",
+      "url": "https://www.cholamandalam.com/investors/agm-presentation"
+    },
+    {
+      "text": "Draft Shelf Prospectus",
+      "url": "https://www.cholamandalam.com/news/draft-shelf-prospectus"
+    },
+    {
+      "text": "Shelf Prospectus",
+      "url": "https://www.cholamandalam.com/news/shelf-prospectus"
+    },
+    {
+      "text": "Tranche I Prospectus",
+      "url": "https://www.cholamandalam.com/news/tranche-i-prospectus"
+    },
+    {
+      "text": "Addendum to Shelf Prospectus",
+      "url": "https://www.cholamandalam.com/news/addendum-shelf-and-transche-prospectus"
+    }
+  ],
+  "Company": [
+    {
+      "text": "About Us",
+      "url": "https://www.cholamandalam.com/about-us"
+    },
+    {
+      "text": "Our Presence",
+      "url": "https://www.cholamandalam.com/about-us/our-presence"
+    },
+    {
+      "text": "CSR",
+      "url": "https://www.cholamandalam.com/community-relations"
+    }
+  ],
+  "Information": [
+    {
+      "text": "Digital Lending Partners",
+      "url": "https://www.cholamandalam.com/contact-us/digital-lending-partners"
+    },
+    {
+      "text": "Lending Partners",
+      "url": "https://www.cholamandalam.com/contact-us/lending-partners"
+    },
+    {
+      "text": "Public Notice",
+      "url": "https://www.cholamandalam.com/contact-us/public-notice"
+    },
+    {
+      "text": "NPA Customers Communcation",
+      "url": "https://www.cholamandalam.com/files/communication-to-npa-customers"
+    },
+    {
+      "text": "Mandate Cancellation",
+      "url": "https://one.chola.murugappa.com/"
+    },
+    {
+      "text": "Sachet Portal link",
+      "url": "https://sachet.rbi.org.in/"
+    },
+    {
+      "text": "List of Terminated Agencies",
+      "url": "https://files.cholamandalam.com/Terminated_vendors_for_website_bba0a560ad.pdf"
+    },
+    {
+      "text": "NACH E-Mandate",
+      "url": "https://www.cholamandalam.com/contact-us/enach"
+    },
+    {
+      "text": "Collection Agencies",
+      "url": "https://www.cholamandalam.com/investors/collection-agency-list"
+    },
+    {
+      "text": "Public Awareness Campaigns",
+      "url": "https://www.cholamandalam.com/investors/public-awareness-campaigns"
+    }
+  ],
+  "Media": [
+    {
+      "text": "News & Events",
+      "url": "https://www.cholamandalam.com/news"
+    },
+    {
+      "text": "Press Releases",
+      "url": "https://www.cholamandalam.com/news/press-release"
+    },
+    {
+      "text": "Media Kit",
+      "url": "https://www.cholamandalam.com/news/media-kit"
+    },
+    {
+      "text": "Auction Notices",
+      "url": "https://www.cholamandalam.com/news/auction-notices"
+    }
+  ],
+  "Get in touch": [
+    {
+      "text": "Contact Us",
+      "url": "https://www.cholamandalam.com/contact-us"
+    },
+    {
+      "text": "Branch Locator",
+      "url": "https://www.cholamandalam.com/branch/"
+    },
+    {
+      "text": "Chola One - Privacy Policy",
+      "url": "https://files.cholamandalam.com/privacy_policy_csel_d2c_ca4f907038.pdf"
+    },
+    {
+      "text": "Chola One - Terms & Conditions",
+      "url": "https://files.cholamandalam.com/Chola_one_t_and_C_8b45caa731.pdf"
+    },
+    {
+      "text": "DO's and DONT'S",
+      "url": "https://www.cholamandalam.com/contact-us/dos-and-donts"
+    },
+    {
+      "text": "Chola Auctions",
+      "url": "https://www.cholamandalam.com/chola-auctions"
+    },
+    {
+      "text": "Careers",
+      "url": "https://www.cholamandalam.com/careers"
+    }
+  ],
+  "Group Portals": [
+    {
+      "text": "Gaadi Bazaar",
+      "url": "https://www.gaadibazaar.in/"
+    },
+    {
+      "text": "Chola Securities",
+      "url": "https://www.cholasecurities.com/"
+    }
+  ],
+  "Apply Loan": [
+    {
+      "text": "Apply Gold Loan",
+      "url": "https://www.cholamandalam.com/apply-now-gold-loan"
+    },
+    {
+      "text": "Apply Home Loan",
+      "url": "https://www.cholamandalam.com/apply-now-home-loans"
+    },
+    {
+      "text": "Apply Personal Loan",
+      "url": "https://www.cholamandalam.com/apply-now-consumer-small-enterprise-loans"
+    },
+    {
+      "text": "Apply Two Wheeler Loans",
+      "url": "https://www.cholamandalam.com/apply-now-two-wheeler-loans"
+    },
+    {
+      "text": "Apply Secured Loan",
+      "url": "https://www.cholamandalam.com/apply-now-secured-business-loans"
+    },
+    {
+      "text": "Apply Loan Against Property",
+      "url": "https://www.cholamandalam.com/apply-now-loan-against-property"
+    },
+    {
+      "text": "Apply Three Wheeler Loans",
+      "url": "https://www.cholamandalam.com/apply-now-three-wheeler-loans"
+    },
+    {
+      "text": "Apply Equipment Loans",
+      "url": "https://www.cholamandalam.com/apply-now-construction-equipment-loans"
+    },
+    {
+      "text": "Apply SME Loans",
+      "url": "https://www.cholamandalam.com/apply-now-sme-loans"
+    },
+    {
+      "text": "Apply Car Loan",
+      "url": "https://www.cholamandalam.com/apply-now-car-loans"
+    }
+  ]
+}

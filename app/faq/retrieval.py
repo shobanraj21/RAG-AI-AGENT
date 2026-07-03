@@ -25,10 +25,11 @@ def _get_reranker():
 
 def _load_reranker():
     global _reranker
+    if _reranker is not None:
+        return _reranker
     _reranker = CrossEncoder(RERANKER_PATH, local_files_only=True)
     faq_log.info("[RERANKER] MS-Marco reranker loaded from %s", RERANKER_PATH)
-
-_load_reranker()
+    return _reranker
 
 
 def _vertex_rerank(query: str, chunks: list, top_k: int) -> list:
@@ -70,45 +71,60 @@ def _is_noisy_chunk(text: str) -> bool:
 
 
 # ──────────────────────────────────────────────
-# Embedding
+# Shared Vertex AI client for embeddings
 # ──────────────────────────────────────────────
-# Calls Gemini Embedding API — returns 3072-dim vector for the given text
-def get_gemini_embedding(text: str) -> list:
+_embedding_client = None
+
+def _get_embedding_client():
+    global _embedding_client
+    if _embedding_client is not None:
+        return _embedding_client
     if VERTEX_SERVICE_ACCOUNT_JSON:
         creds = service_account.Credentials.from_service_account_file(
             VERTEX_SERVICE_ACCOUNT_JSON,
             scopes=["https://www.googleapis.com/auth/cloud-platform"],
         )
-        client = genai.Client(
+        _embedding_client = genai.Client(
             vertexai=True,
             project=VERTEX_PROJECT_ID,
             location=VERTEX_LOCATION,
             credentials=creds,
         )
     else:
-        client = genai.Client(
+        _embedding_client = genai.Client(
             vertexai=True,
             project=VERTEX_PROJECT_ID,
             location=VERTEX_LOCATION,
         )
+    return _embedding_client
+
+
+# ──────────────────────────────────────────────
+# Embedding
+# ──────────────────────────────────────────────
+# Calls Gemini Embedding API — sends all texts in ONE batch request, returns list of vectors
+def get_gemini_embeddings_batch(texts: list[str]) -> list[list]:
+    client = _get_embedding_client()
     result = client.models.embed_content(
         model=GEMINI_EMBEDDING_MODEL,
-        contents=text,
+        contents=texts,
         config=types.EmbedContentConfig(output_dimensionality=3072),
     )
-    return result.embeddings[0].values
+    return [e.values for e in result.embeddings]
 
 
-# Async wrapper — runs embedding in thread, validates dimension matches DB
-async def get_embedding(text: str) -> list:
-    embedding_list = await asyncio.to_thread(get_gemini_embedding, text)
+# Async batch wrapper — single API call for all queries, validates dimensions
+async def get_embeddings_batch(texts: list[str]) -> list[list]:
+    embeddings = await asyncio.to_thread(get_gemini_embeddings_batch, texts)
     expected_dim = _get_pg_vector_dim()
-    if expected_dim is not None and len(embedding_list) != expected_dim:
-        raise ValueError(
-            f"Embedding dimension mismatch: model returned {len(embedding_list)} "
-            f"dimensions but table stores {expected_dim}."
-        )
-    return embedding_list
+    if expected_dim is not None:
+        for emb in embeddings:
+            if len(emb) != expected_dim:
+                raise ValueError(
+                    f"Embedding dimension mismatch: model returned {len(emb)} "
+                    f"dimensions but table stores {expected_dim}."
+                )
+    return embeddings
 
 
 # ──────────────────────────────────────────────
@@ -138,8 +154,6 @@ def retrieve_semantic_chunks(query_embedding: list, top_k: int = TOP_K) -> list:
         ]
     finally:
         pool.putconn(conn)
-
-
 
 # ──────────────────────────────────────────────
 # BM25

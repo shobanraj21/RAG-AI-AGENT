@@ -17,7 +17,6 @@ from config import (
     PG_FAQ_TABLE, CHUNK_SIZE, DEBUG_MODE, DEBUG_DIR,
 )
 
-
 # ──────────────────────────────────────────────
 # Helpers
 # ──────────────────────────────────────────────

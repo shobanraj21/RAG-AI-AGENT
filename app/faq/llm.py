@@ -100,12 +100,14 @@ def _call_gemini_llm(messages: list, max_tokens: int = 8192, call_name: str = "u
     try:
         client = _get_genai_client()
         cache_name = _get_answer_cache(client) if call_name == "generate_answer" else None
+        faq_log.debug("[GEMINI] Cache ready | call=%s | cache=%s", call_name, cache_name or "none")
         config = types.GenerateContentConfig(
             temperature=0.1,
             max_output_tokens=max_tokens,
             stop_sequences=["\n\nQuestion:", "\nQuestion:", "Q:", "\n\nAnswer:"],
             cached_content=cache_name if cache_name else None,
             system_instruction=None if cache_name else (system_text or None),
+            labels={"agent": "rag-agent"},
         )
         response = client.models.generate_content(
             model=GEMINI_MODEL,
@@ -184,7 +186,6 @@ async def rewrite_query(query: str, history: list) -> tuple[dict, dict]:
     except Exception as e:
         faq_log.warning("[REWRITE] Failed (%s: %s) — falling back to original query", type(e).__name__, e)
         return default, _EMPTY_USAGE
-
 
 # ──────────────────────────────────────────────
 # Answer Generator — returns (answer, usage)

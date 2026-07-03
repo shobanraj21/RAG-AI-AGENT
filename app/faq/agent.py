@@ -12,7 +12,7 @@ from config import (
 
 from variables import CHATBOT_NAME, COMPANY_NAME
 from retrieval import (
-    get_embedding, retrieve_semantic_chunks,
+    get_embeddings_batch, retrieve_semantic_chunks,
     merge_and_rerank,
 )
 from llm import rewrite_query, generate_answer
@@ -174,7 +174,7 @@ async def invoke_faq_agent(
             save_message(session_id, "assistant", answer)
             faq_log.info(f"[SESSION: {session_id}] {intent.upper()} SHORT-CIRCUIT (lang={language})")
             _log_token_usage(session_id, intent, rewrite_usage, answer_usage, elapsed_s=rewrite_elapsed)
-            return {"status_code": 200, "result_text": answer, "session_id": session_id}
+            return {"status_code": 200, "result_text": answer, "session_id": session_id, "label": "Rag-Agent"}
 
         # Step 2: Multi-Query + Embed + Retrieve
         all_queries = []
@@ -183,15 +183,17 @@ async def invoke_faq_agent(
                 all_queries.append(candidate_query)
         faq_log.debug(f"[SESSION: {session_id}]   queries={all_queries}")
 
-        # Run all embeddings in parallel
-        embeddings = await asyncio.gather(
-            *[get_embedding(q) for q in all_queries]
-        )
+        # Run all embeddings in ONE batch API call
+        embed_start = time.perf_counter()
+        embeddings = await get_embeddings_batch(all_queries)
+        faq_log.debug("[SESSION: %s] EMBEDDINGS DONE | queries=%d | elapsed=%.2fs", session_id, len(all_queries), time.perf_counter() - embed_start)
 
         faq_log.debug(f"[SESSION: {session_id}] RETRIEVAL")
+        retrieval_start = time.perf_counter()
         chunk_lists = await asyncio.gather(
             *[asyncio.to_thread(retrieve_semantic_chunks, emb, TOP_K) for emb in embeddings]
         )
+        faq_log.debug("[SESSION: %s] RETRIEVAL DONE | elapsed=%.2fs", session_id, time.perf_counter() - retrieval_start)
         seen_texts = set()
         all_chunks = []
         for chunks in chunk_lists:
@@ -214,7 +216,7 @@ async def invoke_faq_agent(
 
         if not ranked_chunks:
             faq_log.warning(f"[SESSION: {session_id}] NO CHUNKS FOUND")
-            return {"status_code": 200, "result_text": "Sorry, I do not have any information about that topic."}
+            return {"status_code": 200, "result_text": "Sorry, I do not have any information about that topic.", "label": "Rag-Agent"}
 
         # Step 3: Generate answer
         faq_log.debug("[SESSION: %s] LLM QUERY SNAPSHOT | original=%r | all_queries=%s", session_id, search_query, all_queries)
@@ -264,9 +266,9 @@ async def invoke_faq_agent(
 
         faq_log.info(f"[SESSION: {session_id}] RESPONSE COMPLETE - Status: 200")
         faq_log.info("=" * 100)
-        return {"status_code": 200, "result_text": answer, "session_id": session_id}
+        return {"status_code": 200, "result_text": answer, "session_id": session_id, "label": "Rag-Agent"}
 
     except Exception as e:
         faq_log.error(f"[SESSION: {session_id}] ERROR: {type(e).__name__}: {str(e)}", exc_info=True)
         faq_log.error("=" * 100)
-        return {"status_code": 500, "result_text": "We ran into a technical issue. Please try again later.", "session_id": session_id}
+        return {"status_code": 500, "result_text": "We ran into a technical issue. Please try again later.", "session_id": session_id, "label": "Rag-Agent"}

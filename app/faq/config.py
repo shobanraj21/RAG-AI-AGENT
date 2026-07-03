@@ -73,7 +73,6 @@ def _cleanup_old_logs() -> None:
 # Always returns today's logger — safe across midnight if server restarts
 faq_log = _get_faq_logger()
 token_log = _get_token_logger()
-_cleanup_old_logs()
 
 # ──────────────────────────────────────────────
 # Env Config

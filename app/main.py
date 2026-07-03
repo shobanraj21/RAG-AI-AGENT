@@ -1,4 +1,8 @@
 from fastapi import FastAPI
+import importlib
+import os
+import sys
+
 from app.api.router import router as api_v1_router
 from app.middleware.cors import add_cors_middleware
 from app.core.exceptions import add_exception_handlers
@@ -11,6 +15,18 @@ add_cors_middleware(app)
 add_exception_handlers(app)
 
 app.include_router(api_v1_router)
+
+@app.on_event("startup")
+def startup_faq_modules():
+    faq_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "faq"))
+    if faq_path not in sys.path:
+        sys.path.insert(0, faq_path)
+
+    faq_config = importlib.import_module("config")
+    faq_retrieval = importlib.import_module("retrieval")
+
+    faq_config._cleanup_old_logs()
+    faq_retrieval._load_reranker()
 
 @app.get("/")
 def root():

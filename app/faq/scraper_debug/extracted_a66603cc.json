@@ -1,0 +1,45 @@
+[
+  {
+    "level": 2,
+    "title": "Choose the Loan you want to apply for",
+    "content": "Gold Loan Car & MUV - Loans Two Wheeler Loans Commercial Vehicle Loans Three Wheeler Loans Construction Equipment Loans Tractor & Farm Equipment Loans Secured Business Loans Home Loans Loan Against Property Consumer & Small Enterprise Loans SME Loans",
+    "subsections": []
+  },
+  {
+    "level": 2,
+    "title": "Pay EMI",
+    "content": "Vehicle Loans Chola One",
+    "subsections": []
+  },
+  {
+    "level": 2,
+    "title": "Choose one of the options below & get a call back from our Customer support team",
+    "content": "Existing Chola Customer New to Chola Customer",
+    "subsections": [
+      {
+        "level": 3,
+        "title": "Request a Call Back",
+        "content": "",
+        "subsections": []
+      },
+      {
+        "level": 3,
+        "title": "Thanks for sharing your details.",
+        "content": "A Chola executive will get in touch with you shortly.",
+        "subsections": []
+      },
+      {
+        "level": 3,
+        "title": "Request a Call Back",
+        "content": "",
+        "subsections": []
+      },
+      {
+        "level": 3,
+        "title": "Thanks for sharing your details.",
+        "content": "A Chola executive will get in touch with you shortly.",
+        "subsections": []
+      }
+    ]
+  }
+]

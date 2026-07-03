@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-12T17:38:24.293899",
+  "total_chunks": 596,
+  "scraper_urls": [
+    "https://www.cholamandalam.com/",
+    "https://www.cholamandalam.com/about-us/heritage",
+    "https://www.cholamandalam.com/about-us/vision-and-mission",
+    "https://www.cholamandalam.com/about-us/our-subsidiaries",
+    "https://www.cholamandalam.com/about-us/our-presence",
+    "https://www.cholamandalam.com/contact-us/grievance-redressal",
+    "https://www.cholamandalam.com/investors",
+    "https://www.cholamandalam.com/people/our-beliefs",
+    "https://www.cholamandalam.com/about-us/board-directors",
+    "https://www.cholamandalam.com/people/why-chola",
+    "https://www.cholamandalam.com/life-at-chola/"
+  ],
+  "footer_base_url": "https://www.cholamandalam.com",
+  "footer_topics": [
+    "Our Products",
+    "Apply Loan"
+  ],
+  "table": "faq_embeddings",
+  "embedding_model": "gemini-embedding-001"
+}

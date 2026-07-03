@@ -1,0 +1,330 @@
+Investors Information , Financial Informations, Stock Exchange Communications
+
+* About Us
+
+  Vision & Mission
+  Heritage
+  Board of Directors
+  Our Subsidiaries
+  Our Presence
+* Customer Service
+
+  Contact Us
+  Download Forms
+  Partner With Us
+  Grievance Redressal
+  Branch Locator
+  Release of Property Document
+  Chola Charter
+* News
+  News & Events
+  Press Releases
+  Media Kit
+  Auction Notice
+* CSR
+* ESG
+* Investors
+* People
+  Our Beliefs
+  Why Chola
+  Life at Chola
+  Careers
+* Customer Login
+  Gaadibazaar
+  Chola One
+* Blogs
+* Pay Vehicle EMI
+
+# Investors Section
+
+Information under Regulation 46 and 62 of the SEBI(Listing Obligation and Disclosure Requirement) Regulations, 2015
+
+In terms of **SEBI circular dated 2 July, 2025**, investors who had lodged transfer deeds in relation to transfer of securities prior to
+**1 April 2019** and rejected/ returned/ not attended due to deficiency in documents/process/ or otherwise may re-lodge such documents with the Company during
+**7 July, 2025 to 6 January, 2026**. The securities that are re-lodged for transfer as mentioned above, will be issued in
+**demat mode only**. Investors may write to the Company or RTA in this regard.
+
+* Details of Company’s business
+* Memorandum and Articles of Association
+* Brief profile of board of directors including directorship and full-time positions in body corporates
+* Employee Stock Option Plan
+* Terms and Conditions of appointment of Independent Directors
+* Composition of Committees of the Board of Directors
+* Code of Conduct - Board & Senior Management
+* Whistle Blower policy
+* Remuneration policy
+* Policy on Related Party Transactions
+* Policy on material subsidiaries
+* Policy of preservation and archival of documents
+* Familiarisation Programme
+* Contact details of companies Investor grievance redressal officer
+
+  #### Compliance Officer / Investor Grievance Redressal Officer
+
+  Ms. P Sujatha
+
+  Company Secretary
+
+  Cholamandalam investment and Finance Company Limited
+
+  "Chola Crest", C54‐55 & Super B‐4,
+
+  Thiru‐Vi‐Ka Industrial Estate,
+
+  Guindy, Chennai 600 032
+
+  Tel:044-40907172
+
+  Toll Free:1800-102-4565
+
+  companysecretary@chola.murugappa.com
+
+  investors@chola.murugappa.com
+
+  #### Our RTA
+
+  Mr. Ramesh S R - Deputy Vice President - Corporate Registry
+
+  KFIN Technologies Limited
+
+  (Formerly known as KFin Technologies Private Limited)
+
+  Selenium Building,Tower B, Plot 31-32,Financial District,
+
+  Nanakramguda, Serilingampally, Hyderabad, Rangareddi, Telangana 500032
+
+  Phone: 040-67162222 | 79611000, Toll Free No.: 18003094001 | Fax No. :040-23001153
+
+  einward.ris@kfintech.com
+* Financial Information
+
+  + Notices
+  + Financial results approved at the Board Meeting
+  + Annual Reports
+* Shareholding pattern
+* Details of agreements entered into with the media companies and/or their associates, etc
+
+  **"Nil"**
+* Investors Meet
+
+  + Call Transcript
+  + Investor Presentations
+  + ECL Methodology
+* New name and the old name of the listed entity
+
+  **"Not Applicable"**
+* Statutory Advertisements
+
+  + Advertisement on transfer of shares to IEPF\_26May2026
+  + Notice of Despatch of Postal Ballot – February 2026
+  + Newspaper Financials\_January2026
+  + Newspaper advertisement regarding Notice of Special Window for Re-lodgement of transfer requests of Physical Shares
+  + Newspaper Advertisement July 2025
+  + SE\_PreAGM\_Newspaper\_Advrt\_28Jun2025
+  + Newspaper Advertisement\_100daysCampaign\_10Sep2025
+  + Newspaper Advertisement November 2025
+  + Advertisement regarding Notice of the 47th Annual General Meeting
+  + Newspaper Advertisement 28 June 2025
+  + Newspaper Financials - 31 March,2025
+  + Advertisement regarding Notice of Postal Ballot & E-Voting to Shareholders
+  + Newspaper Financials - 31 Jan, 2025
+  + Newspaper Financials - October, 2024
+  + Newspaper Financials - June, 2024
+  + Newspaper Financials - 01 June, 2024
+  + Newspaper Financials - 31 March,2024
+  + Newspaper Advertisement regarding Addendum to Tranche-IV Prospectus
+  + Newspaper Financials - January\_26.01.2024
+  + Newspaper Advertisement regarding Public issue of debentures Tranche-IV - Issue closing
+  + Newspaper Advertisement regarding Tranche-IV issue opening and closing of Public issue of debentures
+  + Newspaper advertisement regarding proposed transfer of equity shares to Investor Education and Protection Fund (“IEPF”) Demat Account
+  + Newspaper Advertisement regarding Pre-closure of the company's Public issue of debentures Tranche-III
+  + Newspaper Advertisement regarding Tranche-Ill issue opening and closing of Public issue of debentures
+  + Newspaper Financials - Nov\_03.11.2023
+  + Newspaper advertisement regarding notice of postal ballot & E‐Voting to shareholders
+  + Newspaper\_issue closing\_3Aug2023
+  + Newspaper\_public issue\_2Aug2023
+  + Newspaper Financials - August\_02.08.2023
+  + Newspaper advertisement regarding notice of the 45th Annual General Meeting
+  + Newspaper Email Registration Jul\_04.07.2023
+  + Newspaper Financials May\_04.5.2023
+  + Newspaper\_issue closing\_27Apr2023
+  + Newspaper\_Public issue Debt\_25Apr2023
+  + Newspaper Financials Feb\_01.2.2023
+  + Newspaper Financials Dec\_03.12.2022
+  + Newspaper Financials Sep\_02.11.2022
+  + Newspaper Financials June\_30.07.2022
+  + Newspaper AGM Annual Report\_08.07.2022
+  + Newspaper Email Registration July\_02.07.2022
+  + Newspaper Financials Mar\_06.05.2022
+  + Newspaper Financials Dec\_02.02.2022
+  + Newspaper IEPF\_03.12.2021
+  + Newspaper Financials Sep\_30.10.2021
+  + Newspaper Financials June\_31.07.2021
+  + Newspaper AGM Annual Report\_09.07.2021
+  + Newspaper Email Registration\_01.07.2021
+  + Newspaper IEPF - March\_04.06.2021
+  + Newspaper Financials - March\_08.05.2021
+* Credit Rating
+* Financials of Subsidiaries
+* Secretarial Compliance Report
+
+  + FY 2026
+  + FY 2025
+  + FY 2024
+  + FY 2023
+  + FY 2022
+  + FY 2021
+  + FY 2020
+* Policy for determination of materiality of events or information
+* Disclosure of information disclosed to stock exchanges
+* Statements of deviation(s) or variation(s)
+
+  **"Nil"**
+* Dividend Distribution Policy
+* Annual Return under section 92 of Companies Act 2013
+* Contact details of the Debenture Trustees
+
+  #### IDBI Trusteeship Services Limited
+
+  Universal Insurance Building
+
+  Ground Floor, Sir P.M. Road,
+
+  Fort, Mumbai - 400001
+
+  Phone:+91 22 40807073
+
+  Website :
+
+  www.idbitrustee.co.in
+
+  Contact person: Ms. Jinal Shah, Analyst
+
+  #### SBICAP Trustee Company Limited
+
+  4th Floor, Mistry Bhavan
+
+  122, Dinshaw Vaccha Road,
+
+  Churchgate, Mumbai -400020
+
+  Phone:+91 8866400223
+
+  Website :
+
+  www.sbicaptrustee.com
+
+  Aayushi.Sanghavi@sbicaptrustee.com
+
+  Contact person: Aayushi Sanghavi, Company Secretary
+
+  #### Catalyst Trusteeship Limited
+
+  GDA House, Plot No. 85, Bhusari Colony (Right),
+  Paud Road,
+
+  Pune - 411 038
+
+  Phone:020-6680 7200 | 7223 | 7224-209
+
+  Website :
+
+  www.catalysttrustee.com
+
+  Email: dt@ctltrustee.com
+
+  Contact person: Ms. Shamal Nalawade- Asst. VP
+* Compliance Report
+* Information with respect to Default or failure
+
+  **"Nil"**
+* Contact details of key managerial personnel who are authorized for the purpose of determining materiality for the purpose of disclosures to stock exchange(s) & confirm.
+* Newspaper Financials - 31 March 2026
+
+Overview
+
+* Shareholder Information
+
+  + SEBI Norms
+
+  + Smart ODR
+
+  + TDS on Dividend
+
+  + Company Information
+
+  + “100 Days Campaign- “Saksham Niveshak"
+
++ ESOP
+
+- Notice under Section 160 of the Companies Act, 2013
+
+  * Notice u/s 160 – March 2025
+
+  * Notice u/s 160 – January 2026
+
+* Company Policies
+
+  + Company Policies
+
+  + Whistleblower Policy
+
+  + CSR Policy
+
+  + KYC
+
+  + Fair Practices Code
+
+  + Interest Rate Policy
+
+  + Vernacular Languages - Loan Agreements
+
+  + Criteria for Board Nomination
+
+  + Internal Guidelines
+
+  + Dividend Distribution Policy
+
+  + Policy for unclaimed amounts on NCS
+
++ AGM Presentation
+
+- AGM
+
+* Notice for AGM
+
++ Postal Ballot
+
+- Call Transcript
+
+* Chairman Speech
+
++ Placement document
+
+  - Placement document
+
+  - Placement document-2020
+
+  - Placement document-2023
+
+- Debentures
+
+* Investor Service
+
++ Shareholders online survey
+
+- Details of RTA and unclaimed details - UNCLAIMED DIVIDEND / DEPOSIT AMOUNTS
+
+* Stock Exchange Communication
+
+  + Stock Exchange Communcation
+
+  + Corporate Governance Report
+
++ FAQ
+
+- Others
+
+* Information Security Policy
+
++ Unclaimed Amounts on NCS - Escrow Account Details
